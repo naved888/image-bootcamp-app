@@ -37,4 +37,7 @@ Here user can perform certain opertions on details like edit,delete and also use
 ```
 
 ### Live Demo of Project
-
+```
+Hosted on netlify
+https://image-bootcamp-ns.netlify.app/
+```
