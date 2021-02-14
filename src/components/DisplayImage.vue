@@ -110,7 +110,6 @@ export default {
       const dataIndex = this.details.indexOf(data);
       this.details.splice(dataIndex, 1);
       localStorage.setItem("details", JSON.stringify(this.details));
-      window.location.reload();
     },
     elementId(data) {
       const dataIndex = this.details.indexOf(data);
