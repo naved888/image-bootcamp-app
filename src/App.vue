@@ -1,28 +1,28 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <nav-app ></nav-app>
+    <upload-image-app ></upload-image-app>
+    <display-image-app ></display-image-app>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Nav from './components/Nav'
+import UploadImage from './components/UploadImage'
+import DisplayImage from './components/DisplayImage'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    "nav-app": Nav,
+    "upload-image-app": UploadImage,
+    "display-image-app": DisplayImage
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: 'Courier New', Courier, monospace;
 }
 </style>
