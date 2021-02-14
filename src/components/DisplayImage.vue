@@ -9,12 +9,12 @@
           v-b-modal.edit-modal
           @click="elementId(data)"
           type="button"
-          class="btn btn-warning btn-adjust"
+          class=" btn-warning btn-adjust"
           >Edit</b-button
         >
         <b-button
           @click="deleteList(data)"
-          class="btn btn-danger btn-adjust mt-2"
+          class=" btn-danger btn-adjust mt-2"
           >Delete</b-button
         >
       </div>
@@ -53,7 +53,7 @@
           <div class="d-flex justify-content-center">
             <b-button
               v-if="toggleImg2 && data.id == clickedId"
-              class="btn btn-dark upload-btn"
+              class=" btn-dark upload-btn"
               @click="retakeImg(data)"
               >Retake</b-button
             >
@@ -73,7 +73,7 @@
               type="submit"
               @click="onSubmit(data)"
               variant="primary"
-              class="btn btn-success upload-btn"
+              class=" btn-success upload-btn"
               >Save Changes</b-button
             >
           </div>

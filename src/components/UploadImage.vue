@@ -5,7 +5,7 @@
         <b-button
           v-b-modal.take-pic
           variant="primary"
-          class="btn btn-success upload-btn mb-2"
+          class=" btn-success upload-btn mb-2"
           >Take Photo</b-button
         >
         <b-modal id="take-pic" size="lg" modal-ok>
@@ -37,7 +37,7 @@
         <b-button
           type="submit"
           variant="primary"
-          class="btn btn-success upload-btn"
+          class=" btn-success upload-btn"
           >Upload</b-button
         >
       </b-form>
