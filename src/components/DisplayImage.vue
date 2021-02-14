@@ -84,7 +84,7 @@
 </template>
 
 <script>
-import "vue-media-recorder/src/assets/scss/main.scss";
+import "../assets/scss/main.scss";
 import { PhotoCapture } from "vue-media-recorder";
 export default {
   data() {
