@@ -37,9 +37,9 @@
       >
         <b-form>
           <img
+            class="img-wrapper"
             v-if="toggleImg2 && data.id == clickedId"
             :src="data.path"
-            class="img-wrapper"
           />
           <PhotoCapture
             v-if="toggleImg1 && data.id == clickedId"

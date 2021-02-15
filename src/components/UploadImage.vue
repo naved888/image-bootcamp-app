@@ -113,4 +113,8 @@ h1 {
   margin-top: 10px;
   text-align: center;
 }
+.img-wrapper {
+  width: 100%;
+  object-fit: cover;
+}
 </style>
